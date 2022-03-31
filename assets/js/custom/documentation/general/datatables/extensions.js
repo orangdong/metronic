@@ -1,0 +1,1 @@
+"use strict";var KTDatatablesExtensions={init:function(){var a,t;a=$("#kt_datatable_example_1").DataTable(),t=1,$("#kt_datatable_example_1_addrow").on("click",(function(){a.row.add([t+".1",t+".2",t+".3",t+".4",t+".5"]).draw(!1),t++})),$("#kt_datatable_example_1_addrow").click()}};KTUtil.onDOMContentLoaded((function(){KTDatatablesExtensions.init()}));
